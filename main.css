@@ -1,0 +1,114 @@
+body {
+    font-size: 14px;
+    font-family: Open Sans;
+    background-color: hsl(218, 28%, 13%);
+    color:#FFFF;
+    
+}
+
+.heading {
+    /* All your files in on */
+
+
+width: 734px;
+height: 120px;
+left: 353px;
+top: 771px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 60px;
+/* or 150% */
+/*text-align: center;*/
+color: #FFFF;
+display: flex;
+justify-content: center;
+
+
+}
+
+.intro {
+    /* Fylo stores all your */
+
+width: 589px;
+height: 90px;
+left: 426px;
+top: 922px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+text-align: center;
+color:#FFFF;
+
+}
+
+.button {
+    /* Group */
+
+
+width: 280px;
+height: 56px;
+left: 580px;
+top: 1044px;
+
+
+
+/* Rectangle 2 */
+
+
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #8ADAE3;
+box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+border-radius: 28px;
+
+
+/* Get Started */
+
+
+height: 19px;
+left: 34.29%;
+right: 33.93%;
+top: calc(50% - 19px/2 + 0.5px);
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #FFFF;
+/* identical to box height */
+
+
+
+}
+
+.heading-2 {
+    /* Stay productive, whe */
+
+
+height: 100px;
+left: 0%;
+right: 10.12%;
+top: calc(50% - 100px/2 - 91px);
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 50px;
+/* or 125% */
+
+color: #FFFFFF;
+
+
+}
