@@ -1,20 +1,105 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 73px 88px;
+}
+
+
+html {
     font-size: 14px;
-    font-family: Open Sans;
+    font-family: "Open Sans", sans-serif;
     background-color: hsl(218, 28%, 13%);
     color:#FFFF;
+    font-weight: 400;
+    display: ;
+    box-sizing: border-box;
     
 }
+
+.items {
+
+height: 19px;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+display: flex;
+align-items: center;
+
+}
+
+.link  {
+    padding-right: 56px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 73px 88px;
+    
+}
+
+.first-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height:;
+    background: url("images/bg-curvy-desktop.svg") bottom no-repeat;
+
+}
+
+.first-image img {
+    width: 739px;
+    height: 533px;
+}
+
+.first-image h2 {
+    width: 742px;
+    margin: 46px;
+}
+
+.first-image p {
+    width: 742px;
+    font-size: 22px;
+    padding: 0 30px;
+
+}
+
 
 .heading {
     /* All your files in on */
 
 
-width: 734px;
+/*width: 734px;
 height: 120px;
 left: 353px;
 top: 771px;
-
 font-family: Raleway;
 font-style: normal;
 font-weight: bold;
@@ -22,14 +107,18 @@ font-size: 40px;
 line-height: 60px;
 /* or 150% */
 /*text-align: center;*/
-color: #FFFF;
+color:;
 display: flex;
+flex-direction: column;
+align-items: center;
 justify-content: center;
+width: 100%;
+
 
 
 }
 
-.intro {
+p {
     /* Fylo stores all your */
 
 width: 589px;
@@ -45,6 +134,8 @@ line-height: 30px;
 /* or 150% */
 text-align: center;
 color:#FFFF;
+display: flex;
+align-items: center;
 
 }
 
@@ -92,14 +183,66 @@ color: #FFFF;
 
 }
 
+.box {
+    display: flex;
+    width: 349px;
+    height: 214px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-left: ;
+    
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    padding-top: ;
+}
+
+ .box,
+ .one {
+     padding-right: 147px;
+     margin-top: 407px;
+     margin-left: 280px;
+
+}
+
+.box, 
+.four {
+    align-self: ;
+}
+
+.productive {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 105px;
+    
+    
+}
+
+.middle {
+    width: 563px;
+    height: 282px;
+    padding-left: 57.24px;
+}
+
+
+
 .heading-2 {
     /* Stay productive, whe */
 
 
-height: 100px;
+
 left: 0%;
-right: 10.12%;
-top: calc(50% - 100px/2 - 91px);
+
 
 font-family: Raleway;
 font-style: normal;
@@ -111,4 +254,29 @@ line-height: 50px;
 color: #FFFFFF;
 
 
+} 
+/*testimonials card */
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;  
+  padding: 140px;
+}
+
+.testimonial {
+    flex: 1;
+    background: blue;
+    padding: 45px 48px;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+.testimonial p {
+    margin-bottom: 25px;
+}
+
+.profile {
+    display: flex;
 }
