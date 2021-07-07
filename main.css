@@ -191,6 +191,7 @@ color: #FFFF;
     justify-content: space-around;
     flex-direction: column;
     
+    
 }
 
 .top {
@@ -255,6 +256,12 @@ color: #FFFFFF;
 
 
 } 
+
+.link-arrow {
+    color: cyan;
+    padding-left: 50px;
+
+}
 /*testimonials card */
 
 .testimonial-cards {
@@ -266,17 +273,161 @@ color: #FFFFFF;
 
 .testimonial {
     flex: 1;
-    background: blue;
+    background: hsl(219, 30%, 18%);
     padding: 45px 48px;
     border-radius: 5px;
     position: relative;
+    width: 360px;
+    height: 200px;
+    
     
 }
 
 .testimonial p {
     margin-bottom: 25px;
+    width: 309.3px;
+    height: 84px;
+    font-size: 14px;
+    line-height: 21px;
+    
+}
+
+.image {
+    width: 24xp;
+    height: 24px;
+    border-radius: 50%;
 }
 
 .profile {
-    display: flex;
+    
+    width: 133px;
+    height: 26px;
+    font-size: 10px;
+    line-height: 12px;
+    
 }
+
+.div {
+    padding-top: -5px;
+    width: 100px;
+    height: 20px;
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(217, 28%, 15%);
+    padding: 58px 74px 48px 74px;
+    border-radius: 5px;
+}
+
+sign-up h2 {
+    margin-bottom: 30px;
+
+}
+
+.sign-up p {
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+#sub-email {
+    width: 520px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.get-started {
+    background-color: hsl(176, 68%, 64%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    width: 200;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    padding: 1rem 0 2rem 0;
+}
+
+form input[type='email'] {
+
+}
+
+.footer-location {
+    width: 379px;
+    height: 72px;
+    margin-left: 120px;
+}
+
+.footer-contact {
+    padding-left: 80px;
+}
+
+.about {
+    margin-left: 896px;
+}
+
+.contact {
+    margin-left: 1045px;
+    
+
+}
+
+.social {
+    width: 120px;
+    height: 31px;
+    margin-left: 1240px;
+    margin-right: 81px;
+
+}
+
+
+
+
+
+
+
+
+
+
+form input[type='submit'] {
+    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
