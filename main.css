@@ -24,8 +24,7 @@ html {
     background-color:  hsl(218, 28%, 13%);
     color:#FFFF;
     font-weight: 400;
-    max-width: 100%;
-    height: 100%;
+    
     
 }
 
@@ -77,6 +76,9 @@ h2 {
     justify-content: center;
     width: 100%;
     text-align: center;
+    width: 100%;
+    margin-top: -200px;
+    
 
     
 
@@ -141,22 +143,14 @@ p {
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
     border-radius: 28px;
     justify-content: center;
-    display: flex;
+    font-weight: bold;
+    padding-top: 19px;
+    margin-top: 32px;
 
 
 /* Get Started */
 
 
-    height: 19px;
-    left: 34.29%;
-    right: 33.93%;
-    top: calc(50% - 19px/2 + 0.5px);
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-    color: #FFFF;
 /* identical to box height */
 
 
@@ -165,8 +159,6 @@ p {
 
 .box {
     display: flex;
-    width: ;
-    height: ;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
@@ -181,7 +173,7 @@ p {
     display: flex;
     justify-content: center;
     margin-top: -200px;
-    margin-left: ;
+    
     
     
 }
@@ -189,7 +181,7 @@ p {
 
  .box,
  .one {
-     width:; 
+     
      padding-right: 147px;
      margin-top: 407px;
      margin-left: 280px;
@@ -201,6 +193,7 @@ p {
 
 .productive {
     display: flex;
+    flex-direction: row;
     margin-top: 200px;
     margin-left: 105px;
     
@@ -208,6 +201,7 @@ p {
 }
 
 .middle {
+    
     width: 563px;
     height: 282px;
     padding-left: 57.24px;
@@ -270,7 +264,6 @@ p {
 }
 
 .testimonial p {
-    font-size: ;
     color: #cccccc;
 
    /* margin-bottom: 25px;
@@ -279,6 +272,14 @@ p {
     font-size: 14px;
     line-height: 21px;*/
     
+}
+
+.testimonial h3 {
+    font-size: 12px;
+}
+
+.testimonial .job-title {
+    font-size: 10px;
 }
 
 .image {
@@ -299,10 +300,7 @@ p {
     
 }
 
-.div {
-    
-    
-}
+
 
 .sign-up {
     display: flex;
@@ -315,7 +313,7 @@ p {
     width: 60%;
     margin: auto;
     padding: 2rem 3rem;
-    margin-bottom: -20rem;
+    margin-bottom: -155px;
     z-index: 100;
     position: relative;
 }
@@ -343,7 +341,7 @@ sign-up h2 {
     background-color: hsl(176, 68%, 64%);
     color: hsl(0, 0%, 100%);
     font-weight: 700;
-    width: 200;
+    width: 210px;
     height: 30px;
     border: none;
     border-radius: 50px;
@@ -355,19 +353,23 @@ form input[type='email'] {
 }
 /*footer*/
 .footer {
+    max-width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 20rem 5rem 5rem 5rem;
+    padding-top: 200px;
+    padding-bottom: 40px;
     background-color: hsl(216, 53%, 9%);
+    flex-direction: row;
     
     
 }
 
 .logo-bottom {
+    margin-left: 
     width: 108px;
     height: 31px;
-    margin-bottom: 241px;
+    margin-bottom: 35px;
 }
 
 .footer-location {
@@ -381,19 +383,18 @@ form input[type='email'] {
 
 .footer-contact {
     
-    padding-left: ;
+    margin-top: ;
     width: 171px;
     height: 64px;
 }
 
 .about {
-    margin-left:;
+
     width: 69px;
     height: 136px;
 }
 
 .contact {
-    margin-left: ;
     width: 87px;
     height: 98px;
     
