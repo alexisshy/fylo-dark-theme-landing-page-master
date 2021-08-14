@@ -30,20 +30,20 @@ html {
 
 .items {
 
-height: 19px;
-font-family: Raleway;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
+    height: 19px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
 /* identical to box height */
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
-display: flex;
-align-items: center;
-margin-bottom: 241px;
-margin-left: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 241px;
+    margin-left: 80px;
 }
 
 .link  {
@@ -69,7 +69,7 @@ h2 {
 
 }
 
-.first-image {
+.description {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,22 +84,17 @@ h2 {
 
 }
 
-.first-image img {
+.description img {
     width: 720px;
     height: 534px;
 }
 
-.first-image h2 {
+.description h2 {
     width: 734px;
     margin: 46px;
 }
 
-.first-image p {
-    width: 589px;
-    font-size: 22px;
-    padding: 0 30px;
 
-}
 
 
 .heading {
@@ -110,10 +105,11 @@ h2 {
     align-items: center;
     justify-content: center;
     width: 100%;
+    font-size: 40px;
 
 }
 
-p {
+.description p  {
     /* Fylo stores all your */
 
     width: 589px;
@@ -157,45 +153,52 @@ p {
 
 }
 
-.box {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 349px;
-    height: 215x;
+
     
     
+    
+    
+
+
+.box .box-title {
+    font-size: 20px;
+
 }
 
-.top, 
-.bottom {
+
+
+
+.feature-container {
     display: flex;
     justify-content: center;
-    margin-top: -200px;
+    width: calc(2*364px);
+    flex-wrap: wrap;
+    margin-left: 167px;
+    padding-top: 167px; 
+    
+   
     
     
     
 }
 
 
- .box,
- .one {
+ .box {
      
-     padding-right: 147px;
-     margin-top: 407px;
-     margin-left: 280px;
 
+     width: 364px;
+     font-size: 14px;
+     line-height: 21px;
+     min-width: 364px;
 }
 
 
-}
+
 
 .productive {
     display: flex;
-    flex-direction: row;
-    margin-top: 200px;
-    margin-left: 105px;
+    padding-top: 200px;
+    padding-left: 105px;
     
     
 }
@@ -205,9 +208,13 @@ p {
     width: 563px;
     height: 282px;
     padding-left: 57.24px;
+    padding-top: 100px;
 }
 
-
+.middle p {
+    font-size: 16px;
+    line-height: 24px;
+}
 
 .heading-2 {
     /* Stay productive, whe */
@@ -232,9 +239,19 @@ p {
 .link-arrow {
     color: cyan;
     padding-left: 50px;
+    
 
 }
+
+.link-arrow:hover {
+    color: white;
+}
 /*testimonials card */
+
+.quotes {
+    width: 79px;
+    height: 200px;
+}
 
 .testimonial-cards {
     display: flex;
@@ -254,7 +271,8 @@ p {
 }
 
 .testimonial-cards .testimonial {
-    width: 33rem;
+    width: 360px;
+    height: 200px;
     background-color: hsl(219, 30%, 18%);
     padding: 3rem;
     border-radius: .5rem;
@@ -266,11 +284,11 @@ p {
 .testimonial p {
     color: #cccccc;
 
-   /* margin-bottom: 25px;
+    padding-bottom: 50px;
     width: 309.3px;
     height: 84px;
     font-size: 14px;
-    line-height: 21px;*/
+    line-height: 21px;
     
 }
 
@@ -300,7 +318,11 @@ p {
     
 }
 
+.div { 
+    padding-left: 50px;
+    line-height: 1;
 
+}
 
 .sign-up {
     display: flex;
@@ -310,22 +332,26 @@ p {
     background-color: hsl(217, 28%, 15%);
     padding: 58px 74px 48px 74px;
     border-radius: 5px;
-    width: 60%;
+    width: 863px;
+    height: 275px;
     margin: auto;
     padding: 2rem 3rem;
-    margin-bottom: -155px;
+    margin-bottom: -110px;
     z-index: 100;
     position: relative;
 }
 
-sign-up h2 {
-    margin-bottom: 30px;
+.sign-up h2 {
+    
+    font-size: 32px;
 
 }
 
 .sign-up p {
     margin-bottom: 36px;
     text-align: center;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 #sub-email {
@@ -348,34 +374,42 @@ sign-up h2 {
     padding: 1rem 0 2rem 0;
 }
 
-form input[type='email'] {
 
-}
 /*footer*/
 .footer {
     max-width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    padding-top: 200px;
-    padding-bottom: 40px;
-    background-color: hsl(216, 53%, 9%);
+    font-size: 16px;
+   
     flex-direction: row;
     
     
 }
 
+footer {
+    padding-top: 200px;
+    padding-bottom: 40px;
+    background-color: hsl(216, 53%, 9%);
+    font-size: 14px;
+}
+
 .logo-bottom {
-    margin-left: 
+    
     width: 108px;
     height: 31px;
     margin-bottom: 35px;
+    padding-top: 40px;
+    margin-left: 50px;
 }
 
 .footer-location {
-    width: 30rem;
+    width: 379px;
     display: flex;
     align-items: flex-start;
+    
+    
 
    
     
@@ -383,7 +417,7 @@ form input[type='email'] {
 
 .footer-contact {
     
-    margin-top: ;
+    
     width: 171px;
     height: 64px;
 }
@@ -392,24 +426,34 @@ form input[type='email'] {
 
     width: 69px;
     height: 136px;
+    line-height: 2;
 }
 
 .contact {
     width: 87px;
     height: 98px;
+    line-height: 2;
     
 
 }
 
 .social {
-    width: 120px;
-    height: 31px;
+   
     fill: #fff;
     border-radius: 50%;
     padding: 11.35px;
-
+    font-size: 20px;
+    
+    
 }
 
+a:hover {
+    color: #62E0D9;
+}
+
+a:active {
+    color: #62E0D9;
+}
 
 
 
@@ -420,7 +464,7 @@ form input[type='email'] {
 
 
 form input[type='submit'] {
-    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%);
+    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     color: hsl(0, 0%, 100%);
 }
 
