@@ -174,7 +174,7 @@ h2 {
 .feature-container {
     display: flex;
     justify-content: center;
-    width: calc(2*364px + 4*40px);
+    width: calc(2*364px + 4*73.5px);
     flex-wrap: wrap;
     margin: 40px auto; 
     padding-top: 167px; 
@@ -188,7 +188,7 @@ h2 {
 
  .box {
      
-     margin: 20px 40px;
+     margin: 37.5px 73.5px;
      width: 364px;
      font-size: 14px;
      line-height: 21px;
