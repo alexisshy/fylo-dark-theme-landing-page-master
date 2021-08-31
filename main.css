@@ -24,22 +24,15 @@ html {
     background-color:  hsl(218, 28%, 13%);
     color:#FFFF;
     font-weight: 400;
-    
-    
 }
 
 .items {
-
     height: 19px;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-/* identical to box height */
-
-    color: #FFFFFF;
-
     display: flex;
     align-items: center;
     margin-bottom: 241px;
@@ -48,6 +41,7 @@ html {
 
 .link  {
     padding-right: 56px;
+    cursor: pointer;
 }
 
 ul,
@@ -63,7 +57,7 @@ h2 {
     color: white;
     font-weight: bold;
 }
-
+/*First Image Section*/
 .top {
     background: url("images/bg-curvy-desktop.svg");
     background-size: cover;
@@ -81,10 +75,6 @@ h2 {
     text-align: center;
     width: 100%;
     margin-top: -200px;
-    
-
-    
-
 }
 
 .description img {
@@ -97,47 +87,23 @@ h2 {
     margin: 46px;
 }
 
-
-
-
 .heading {
-    /* All your files in on */
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
     font-size: 40px;
-
 }
 
 .description p  {
-    /* Fylo stores all your */
-
     width: 589px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     line-height: 30px;
-    /* or 150% */
-    text-align: center;
-    color:#FFFF;
     display: flex;
-    align-items: center;
+}
 
-    }
-
-    .button {
-        /* Group */
-
+.button {
     width: 280px;
     height: 56px;
     left: 580px;
     top: 1044px;
-/* Rectangle 2 */
-
+    cursor: pointer;
     background: #8ADAE3;
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
     border-radius: 28px;
@@ -145,31 +111,11 @@ h2 {
     font-weight: bold;
     padding-top: 19px;
     margin-top: 32px;
-
-
-/* Get Started */
-
-
-/* identical to box height */
-
-
-
 }
-
-
-    
-    
-    
-    
-
-
+/*Boxes Section*/
 .box .box-title {
     font-size: 20px;
-
 }
-
-
-
 
 .feature-container {
     display: flex;
@@ -178,16 +124,9 @@ h2 {
     flex-wrap: wrap;
     margin: 40px auto; 
     padding-top: 167px; 
-    
-   
-    
-    
-    
 }
 
-
- .box {
-     
+.box {
      margin: 37.5px 73.5px;
      width: 364px;
      font-size: 14px;
@@ -199,20 +138,14 @@ h2 {
 .box-title {
     margin: 25px 0 12px 0;
 }
-
-
-
-
+/*Stay Productive Section*/
 .productive {
     display: flex;
     padding-top: 200px;
     padding-left: 105px;
-    
-    
 }
 
 .middle {
-    
     width: 563px;
     height: 282px;
     padding-left: 57.24px;
@@ -225,37 +158,21 @@ h2 {
 }
 
 .heading-2 {
-    /* Stay productive, whe */
-
-
-
     left: 0%;
-
-
-    font-family: Raleway;
-    font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 50px;
-    /* or 125% */
-
-    color: #FFFFFF;
-
-
 } 
 
 .link-arrow {
     color: cyan;
     padding-left: 50px;
-    
-
 }
 
 .link-arrow:hover {
     color: white;
 }
-/*testimonials card */
-
+/*Testimonial Section*/
 .quotes {
     width: 30px;
     height: 40px;
@@ -274,9 +191,6 @@ h2 {
     flex-wrap: wrap;
     align-items: center;
     padding: 80px;
-    
-    
-    
 }
 
 .testimonial-cards .testimonial {
@@ -285,9 +199,7 @@ h2 {
     background-color: hsl(219, 30%, 18%);
     padding: 3rem;
     border-radius: .5rem;
-    
     margin:40px;
-
 }
 
 .testimonial p {
@@ -297,7 +209,6 @@ h2 {
     height: 84px;
     font-size: 14px;
     line-height: 21px;
-    
 }
 
 .testimonial h3 {
@@ -313,27 +224,21 @@ h2 {
     height: 24px;
     border-radius: 50%;
     margin-right: 5px;
-    
 }
 
 .profile {
-    
     width: 120px;
     height: 26px;
     font-size: 10px;
     line-height: 12px;
     margin-right: 201px;
     display: flex;
-    
-    
 }
 
 .name-title { 
-    
     line-height: 1;
-
 }
-
+/*Sign Up*/
 .sign-up {
     display: flex;
     align-items: center;
@@ -352,9 +257,7 @@ h2 {
 }
 
 .sign-up h2 {
-    
     font-size: 32px;
-
 }
 
 .sign-up p {
@@ -382,20 +285,16 @@ h2 {
     border: none;
     border-radius: 50px;
     padding: 1rem 0 2rem 0;
+    cursor: pointer;
 }
-
-
-/*footer*/
-.footer {
+/*Footer*/
+.footer-section {
     max-width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     font-size: 16px;
-   
-    flex-direction: row;
-    
-    
+   flex-direction: row;
 }
 
 footer {
@@ -406,7 +305,6 @@ footer {
 }
 
 .logo-bottom {
-    
     width: 108px;
     height: 31px;
     margin-bottom: 51px;
@@ -417,22 +315,14 @@ footer {
     width: 379px;
     display: flex;
     align-items: flex-start;
-    
-    
-
-   
-    
 }
 
-.footer-contact {
-    
-    
+.contact-info {
     width: 171px;
     height: 64px;
 }
 
 .about {
-
     width: 69px;
     height: 136px;
     line-height: 2;
@@ -442,14 +332,11 @@ footer {
     width: 87px;
     height: 98px;
     line-height: 2;
-    
-
 }
 
 .social {
     padding: 11.35px;
     font-size: 20px;
-       
 }
 
 .social a:hover, .social a:active {
@@ -459,50 +346,5 @@ footer {
 .social a {
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-form input[type='submit'] {
-    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
-    color: hsl(0, 0%, 100%);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
