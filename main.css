@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+/*Desktop*/
+@media only screen and (min-width: 901px) {
+
 
 
 .nav {
@@ -21,7 +24,7 @@
 }
 
 html {
-    font-size: 14px;
+    font-size: .875rem;
     font-family: "Open Sans", sans-serif;
     background-color:  hsl(218, 28%, 13%);
     color:#FFFF;
@@ -33,7 +36,7 @@ html {
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 19px;
     display: flex;
     align-items: center;
@@ -51,8 +54,10 @@ li {
     list-style: none;
 }
 
-h2 {
-    font-size: 40px;
+.heading {
+    font-size: 2.5rem;
+    width: 734px;
+    font-weight: 700;
 }
 
 .link:hover {
@@ -73,7 +78,6 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
     text-align: center;
     width: 100%;
     margin-top: -200px;
@@ -84,19 +88,19 @@ h2 {
     height: 534px;
 }
 
-.description h2 {
+.description h1  {
     width: 734px;
     margin: 46px;
 }
 
 .heading {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .description p  {
     width: 589px;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 1.5;
     display: flex;
 }
 
@@ -106,17 +110,24 @@ h2 {
     left: 580px;
     top: 1044px;
     cursor: pointer;
-    background: #8ADAE3;
+    background: rgba(803, 203, 213, 0.9934);
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
     border-radius: 28px;
     justify-content: center;
     font-weight: bold;
     padding-top: 19px;
     margin-top: 32px;
+    color: white;
+}
+
+button:focus-visible {
+    background: #8ADAE3;
+    outline: ;
 }
 /*Boxes Section*/
 .box .box-title {
-    font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
 .feature-container {
@@ -131,9 +142,8 @@ h2 {
 .box {
      margin: 37.5px 73.5px;
      width: 364px;
-     font-size: 14px;
-     line-height: 21px;
-     min-width: 364px;
+     font-size: .875rem;
+     line-height: 1.25;
      text-align: center;
 }
 
@@ -209,16 +219,17 @@ h2 {
     margin-bottom: 25px;
     width: 309.3px;
     height: 84px;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: .875rem;
+    line-height: 1.5;
 }
 
-.testimonial h3 {
-    font-size: 12px;
+.testimonial sub {
+    font-size: .75rem;
+    font-weight: 700;
 }
 
 .testimonial .job-title {
-    font-size: 10px;
+    font-size: .6rem;
 }
 
 .image {
@@ -232,7 +243,7 @@ h2 {
     width: 120px;
     height: 26px;
     font-size: 10px;
-    line-height: 12px;
+    line-height: .5;
     margin-right: 201px;
     display: flex;
 }
@@ -258,15 +269,16 @@ h2 {
     position: relative;
 }
 
-.sign-up h2 {
-    font-size: 32px;
+.sign-up h3 {
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .sign-up p {
     margin-bottom: 36px;
     text-align: center;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: .875rem;
+    line-height: 1.5;
 }
 
 #sub-email {
@@ -280,7 +292,7 @@ h2 {
 
 .get-started {
     background-color: hsl(176, 68%, 64%);
-    color: hsl(0, 0%, 100%);
+    color: #FFFF;
     font-weight: 700;
     width: 210px;
     height: 30px;
@@ -289,13 +301,14 @@ h2 {
     padding: 16px 0 32px 0;
     cursor: pointer;
 }
+
 /*Footer*/
 .footer-section {
     max-width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    font-size: 16px;
+    font-size: 1rem;
    flex-direction: row;
 }
 
@@ -303,7 +316,7 @@ footer {
     padding-top: 200px;
     padding-bottom: 40px;
     background-color: hsl(216, 53%, 9%);
-    font-size: 14px;
+    font-size: .875rem;
 }
 
 .logo-bottom {
@@ -338,7 +351,7 @@ footer {
 
 .social {
     padding: 11.35px;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .social a:hover, .social a:active {
@@ -348,15 +361,16 @@ footer {
 .social a {
     color: white;
 }
+}
 
-/*Mobile 375px*/
+/*Mobile 900px*/
 
-@media (max-width: 375px) {
+@media only screen and(max-width: 900px) {
     html {
-        font-size: 10px;
+        font-size: .6rem;
     }
     h2 {
-        font-size: 25px;
+        font-size: 1.6rem;
     }
     .nav {
         padding: 24px 20px;
@@ -378,7 +392,7 @@ footer {
     }
 
     .description h2{
-        width: 302px;
+        /*width: 302px;*/
         margin: 23px;
     }
 
@@ -396,20 +410,17 @@ footer {
 
     .productive {
         flex-direction: column;
-        padding: 0 25px;
-        
+        padding: 0 55px;
         
     }
 
-    .productive img {
+    
+    .productive .stay-productive {
         height: 215px;
         margin: 0px 0px 52px 0px; 
     }
 
-    .icon-arrow  {
-        width: 12px;
-        height: 12px;
-    }
+    
     .testimonial-cards {
         padding: 150px 22px;
         flex-direction: column;
@@ -419,28 +430,34 @@ footer {
         padding: 40px 25px;
         bottom: -175px;
         
-
+        
+        
     }
+    
 
     .form {
-        flex-direction: column;
+        flex-direction:
+        /*width: 319px;*/
         
         
     }
  
     input[type="email"],
-    input[type="submit"]{
-        width: 280px;
+    .get-started {
+       /* width: 280px;*/
         margin: 0 0 25px 0;
     }
 
     footer {
         
-        width: 319px;
+        
+        /*width: 400px;*/
         padding: 288px 27px 42px 27px;
     }
-    .social i {
-        font-size: 20px;
+    .social  {
+        font-size: 1.25rem;
+        
+        
     }
 
     .fa-facebook {
