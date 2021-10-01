@@ -213,8 +213,7 @@ li {
 
 
 button:focus-visible {
-    background: #8ADAE3;
-    outline: ;
+    background: #8ADAE3;  
 }
 /*Boxes Section*/
 .box .box-title {
@@ -453,20 +452,21 @@ footer {
 .social a {
     color: white;
 }
+
 }
 
 /*Mobile 900px*/
 
 @media only screen and(max-width: 900px) {
+
     html {
         font-size: .6rem;
     }
 
-
-
-    nav .items {
+    nav {
         display: flex;
     }
+
     .top {
         background: url("images/bg-curvy-mobile.svg");
     }
@@ -474,15 +474,10 @@ footer {
     h2 {
         font-size: 1.6rem;
     }
+
     .link {
         padding: 24px 20px;
     }
-
-    .items {
-        
-    
-        
-     }
 
     .logo img {
        
@@ -512,6 +507,7 @@ footer {
         margin: 100px 0;
         width: 100%;
     }
+
     .feature-container {
         display: flex;
         justify-content: center;
@@ -549,19 +545,9 @@ footer {
 
     .sign-up {
         padding: 40px 25px;
-        bottom: -175px;
-        
-        
-        
+        bottom: -175px;     
     }
     
-
-    .form {
-        flex-direction:
-        
-        
-        
-    }
  
     input[type="email"],
     .get-started {
@@ -578,23 +564,5 @@ footer {
         
         
     }
-
-    /*.fa-facebook {
-        justify-self: end;
-    }
-
-    .fa-twitter {
-        justify-self: center;
-    }
-
-    .fa-instagram {
-        justify-self: start;
-    }*/
-
-
-
-
-
-
 }
 
