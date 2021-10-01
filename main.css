@@ -30,6 +30,84 @@ body {
 }
 
 
+.link-arrow {
+    color: cyan;
+}
+
+.testimonial-cards .testimonial {
+   /* width: 360px;
+    height: 200px;*/
+    background-color: hsl(219, 30%, 18%);
+    padding: 3rem;
+    border-radius: .5rem;
+    margin:40px;
+}
+
+.testimonial p {
+    color: #cccccc;
+    margin-bottom: 25px;
+    /*width: 309.3px;
+    height: 84px;*/
+    font-size: .875rem;
+    line-height: 1.5;
+}
+
+.image {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.profile {
+    width: 120px;
+    height: 26px;
+    font-size: 10px;
+    line-height: .5;
+    margin-right: 201px;
+    display: flex;
+}
+
+.name-title { 
+    line-height: 1;
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(217, 28%, 15%);
+    padding: 58px 74px 48px 74px;
+    border-radius: 5px;
+    
+    margin: auto;
+    padding: 32px 48pxs;
+    margin-bottom: -110px;
+    z-index: 100;
+    position: relative;
+}
+
+#sub-email {
+    
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 16px;
+    margin-right: 16px;
+}
+
+.get-started {
+    background-color: hsl(176, 68%, 64%);
+    color: #FFFF;
+    font-weight: 700;
+    
+    border: none;
+    border-radius: 50px;
+    padding: 16px 0 32px 0;
+    cursor: pointer;
+}
+
 
 
 /*Desktop*/
@@ -384,17 +462,13 @@ footer {
         font-size: .6rem;
     }
 
+
+
+    nav .items {
+        display: flex;
+    }
     .top {
         background: url("images/bg-curvy-mobile.svg");
-     
-    }
-
-    .nav {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 30px 44px;
     }
 
     h2 {
@@ -496,7 +570,8 @@ footer {
     }
 
     footer {
-        padding: 288px 27px 42px 27px;
+       padding-top: 200px;
+       padding-bottom: 40px;
     }
     .social  {
         font-size: 1.25rem;
@@ -504,7 +579,7 @@ footer {
         
     }
 
-    .fa-facebook {
+    /*.fa-facebook {
         justify-self: end;
     }
 
@@ -514,7 +589,7 @@ footer {
 
     .fa-instagram {
         justify-self: start;
-    }
+    }*/
 
 
 
