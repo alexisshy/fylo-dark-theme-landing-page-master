@@ -2,7 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
+body {
+    background-color:  hsl(218, 28%, 13%);
+    color:#FFFF;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+.button {
+    width: 280px;
+    height: 56px;
+    left: 580px;
+    top: 1044px;
+    cursor: pointer;
+    background: rgba(803, 203, 213, 0.9934);
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 28px;
+    justify-content: center;
+    font-weight: bold;
+    padding-top: 19px;
+    margin-top: 32px;
+    color: white;
+}
+
+
+
 
 /*Desktop*/
 @media only screen and (min-width: 901px) {
@@ -26,8 +54,6 @@
 html {
     font-size: .875rem;
     font-family: "Open Sans", sans-serif;
-    background-color:  hsl(218, 28%, 13%);
-    color:#FFFF;
     font-weight: 400;
 } 
 
@@ -42,6 +68,7 @@ html {
     align-items: center;
     margin-bottom: 241px;
     margin-left: 80px;
+    
 }
 
 .link  {
@@ -64,6 +91,8 @@ li {
     color: white;
     font-weight: bold;
 }
+
+
 /*First Image Section*/
 .top {
     background: url("images/bg-curvy-desktop.svg");
@@ -84,12 +113,12 @@ li {
 }
 
 .description img {
-    width: 720px;
+    max-width: 720px;
     height: 534px;
 }
 
 .description h1  {
-    width: 734px;
+    max-width: 734px;
     margin: 46px;
 }
 
@@ -98,27 +127,12 @@ li {
 }
 
 .description p  {
-    width: 589px;
+    max-width: 589px;
     font-size: 20px;
     line-height: 1.5;
     display: flex;
 }
 
-.button {
-    width: 280px;
-    height: 56px;
-    left: 580px;
-    top: 1044px;
-    cursor: pointer;
-    background: rgba(803, 203, 213, 0.9934);
-    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
-    border-radius: 28px;
-    justify-content: center;
-    font-weight: bold;
-    padding-top: 19px;
-    margin-top: 32px;
-    color: white;
-}
 
 button:focus-visible {
     background: #8ADAE3;
@@ -133,7 +147,7 @@ button:focus-visible {
 .feature-container {
     display: flex;
     justify-content: center;
-    width: calc(2*364px + 4*73.5px);
+    max-width: calc(2*364px + 4*73.5px);
     flex-wrap: wrap;
     margin: 40px auto; 
     padding-top: 167px; 
@@ -141,7 +155,7 @@ button:focus-visible {
 
 .box {
      margin: 37.5px 73.5px;
-     width: 364px;
+     max-width: 364px;
      font-size: .875rem;
      line-height: 1.25;
      text-align: center;
@@ -369,24 +383,40 @@ footer {
     html {
         font-size: .6rem;
     }
+
+    .top {
+        background: url("images/bg-curvy-mobile.svg");
+     
+    }
+
+    .nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 44px;
+    }
+
     h2 {
         font-size: 1.6rem;
     }
-    .nav {
+    .link {
         padding: 24px 20px;
     }
 
     .items {
-        padding-right: 23px;
-    }
+        
+    
+        
+     }
 
     .logo img {
-       width: 82px;
+       
        height: 24px;
     }
 
     .description img {
-        width: 302px;
+        
         height: 225px;
 
     }
@@ -397,9 +427,10 @@ footer {
     }
 
     .description p {
-        width: 292px;
+        
         font-size: 12px;
         padding: 0px 23px;
+        
      }
 
     .feature-container {
@@ -407,6 +438,22 @@ footer {
         margin: 100px 0;
         width: 100%;
     }
+    .feature-container {
+        display: flex;
+        justify-content: center;
+        
+        flex-wrap: wrap;
+        margin: 0px auto; 
+        padding-top: 167px; 
+    }
+    
+    .box {
+        
+        
+        font-size: .875rem;
+        line-height: 1.25;
+        text-align: center;
+   }
 
     .productive {
         flex-direction: column;
@@ -437,21 +484,18 @@ footer {
 
     .form {
         flex-direction:
-        /*width: 319px;*/
+        
         
         
     }
  
     input[type="email"],
     .get-started {
-       /* width: 280px;*/
+    
         margin: 0 0 25px 0;
     }
 
     footer {
-        
-        
-        /*width: 400px;*/
         padding: 288px 27px 42px 27px;
     }
     .social  {
